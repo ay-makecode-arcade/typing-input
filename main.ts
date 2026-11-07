@@ -63,6 +63,13 @@ namespace typingInput {
     }
     init();
 
+    // browserEvents.keyToString returns a literal space for the space key, which
+    // would read as blank in a project. Give it a visible name instead.
+    function keyToText(key: number): string {
+        if (key === browserEvents.Key.Space) return "Space";
+        return browserEvents.keyToString(key as browserEvents.Key) || "";
+    }
+
     /**
      * The text of the last key that was pressed, like "A", "7" or "Enter".
      * Returns an empty string until a key is pressed.
@@ -72,7 +79,7 @@ namespace typingInput {
     //% group="Keyboard"
     //% weight=100
     export function lastKeyboardInput(): string {
-        return browserEvents.keyToString(lastKey as browserEvents.Key) || "";
+        return keyToText(lastKey);
     }
 
     /**

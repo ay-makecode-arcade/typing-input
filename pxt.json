@@ -1,6 +1,6 @@
 {
     "name": "typing-input",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Remember the last keyboard key or mouse button that was pressed.",
     "dependencies": {
         "core": "*",

@@ -18,7 +18,7 @@ This repository can be added as an **extension** in MakeCode Arcade.
 
 ### Keyboard
 
-* **last keyboard input** — the text of the last key pressed, like `A`, `7` or `Enter`
+* **last keyboard input** — the text of the last key pressed, like `A`, `7`, `Space` or `Enter`
 * **last keyboard key** — the last key pressed, as a `browser-events` key value
 
 ### Mouse
