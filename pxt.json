@@ -1,0 +1,17 @@
+{
+    "name": "typing-input",
+    "version": "0.1.0",
+    "description": "Remember the last keyboard key or mouse button that was pressed.",
+    "dependencies": {
+        "core": "*",
+        "browser-events": "*"
+    },
+    "files": [
+        "main.ts",
+        "README.md"
+    ],
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}

@@ -1,0 +1,8 @@
+# MakeCode
+pxt_modules/
+*.hex
+*.uf2
+.vscode/*
+!.vscode/settings.json
+node_modules/
+built/
